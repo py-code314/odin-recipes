@@ -1,0 +1,14 @@
+/* Style index page */
+body {
+    padding: 20px;
+}
+
+.recipes-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipe-page a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
