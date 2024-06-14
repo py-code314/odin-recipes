@@ -1,10 +1,28 @@
-/* Style index page */
+/* Reset */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 body {
-    padding: 20px;
+    margin: 0;
+    padding: 0;
     line-height: 1.5;
 }
 
-h1, h2 {
+/* Style index page */
+.title {
+    background-color: cadetblue;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.title, .recipe-heading {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -15,11 +33,22 @@ p, ul, ol {
 .recipes-list {
     list-style-type: none;
     padding: 0;
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    
 }
 
 .recipe-page a{
     text-decoration: none;
     font-size: 1.5em;
+    display: block;
+    background-color: chocolate;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    
 }
 
 /* Style recipe page */
